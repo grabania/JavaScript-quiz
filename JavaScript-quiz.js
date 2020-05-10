@@ -66,3 +66,26 @@ function question5(array) {
 }
 
 console.log(question5(array));
+
+/* Question 6
+ *
+ * Write a function which takes an array of objects, containing countries and their capitals,
+ * and return the capitals of countries whose *country name* starts with letter 'M' or 'm'
+ * Example input:
+ * [{country: "Spain", capital: "Madrid"}, {country: "Madagascar", capital: "Antananarivo"}]
+ * Example output:
+ * ["Antananarivo"]
+ */
+
+function question6(countries) {
+	const array1 = countries.filter((i) => i.capital.startsWith('m') || i.capital.startsWith('M'));
+
+	return array1.map((i) => i.capital);
+}
+var objArray = [
+	{ country: 'Spain', capital: 'Madrid' },
+	{ country: 'Madagascar', capital: 'Antananarivo' },
+	{ country: 'Russia', capital: 'Moscow' }
+];
+
+console.log(question6(objArray));
