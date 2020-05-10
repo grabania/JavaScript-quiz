@@ -41,3 +41,15 @@ function question3(part1, part2) {
 }
 
 console.log(question3(part1, part2));
+
+/* Question 4
+ *
+ * Write a function which takes a string and returns the string reversed.
+ */
+
+function question4(string1) {
+	return string1.split('').reverse().join('');
+}
+
+string1 = 'blossom';
+console.log(question4(string1));
