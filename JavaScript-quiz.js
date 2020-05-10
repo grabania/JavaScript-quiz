@@ -53,3 +53,16 @@ function question4(string1) {
 
 string1 = 'blossom';
 console.log(question4(string1));
+
+/* Question 5
+ *
+ * Write a function which takes an array of strings and returns the ones
+ * starting with the letter 'M' or 'm'
+ */
+
+array = [ 'Man', 'Water', 'mother', 'Purple', 'mile', 'Right', 'Prime' ];
+function question5(array) {
+	return array.filter((i) => i.startsWith('M') || i.startsWith('m'));
+}
+
+console.log(question5(array));
