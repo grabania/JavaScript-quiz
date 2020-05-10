@@ -89,3 +89,20 @@ var objArray = [
 ];
 
 console.log(question6(objArray));
+
+/* Question 7
+ *
+ * Write a function which takes an array of Users and add an email address
+ * containing their first name and '@codeyourfuture.io'
+ * Example input:
+ * [{firstName: 'Ada', lastName: 'Lovelace'}]
+ * Example output:
+ * [{firstName: 'Ada', lastName: 'Lovelace', email: 'ada@codeyourfuture.io'}]
+ */
+
+function question7(users) {
+	return users.map((i) => i.firstName + i.lastName + '@codeyourfuture.io');
+}
+
+user1 = [ { firstName: 'Ada', lastName: 'Lovelace' } ];
+console.log(question7(user1));
