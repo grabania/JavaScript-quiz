@@ -106,3 +106,39 @@ function question7(users) {
 
 user1 = [ { firstName: 'Ada', lastName: 'Lovelace' } ];
 console.log(question7(user1));
+
+/* Question 8 (I need to finish it!)
+ *
+ * Write a class named Rectangle.
+ *
+ * The class should have
+ * - an attribute called colour
+ * - an attribute called height (with a default value of 10)
+ * - an attribute called width (with a default value of 10)
+ * - a constructor which takes those parameters
+ * - a method called area, which returns the height multiplied by width
+ */
+
+class Rectangle {
+	constructor(colour, height = 10, width = 10) {
+		this.colour;
+		this.height;
+		this.width;
+	} // TODO
+}
+var area = this.height * this.width;
+
+function question8() {
+	//Edit the class Rectangle above.
+	//do NOT edit this function.
+	return new Rectangle('red', 4);
+}
+
+/* Question 9 (I need to finish it!)
+ *
+ * Write a function which takes an array of Rectangles as defined in Question 8.
+ * Return the sum of the areas of all Rectangles
+ */
+function question9(Rectangles) {
+	// TODO
+}
